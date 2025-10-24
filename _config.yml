@@ -6,7 +6,7 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-remote_theme: pages-themes/cayman@v0.2.0
+
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -25,7 +25,7 @@ repository               : "DavidQiuChao/DavidQiuChao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./profile.jpg"
+  avatar           : "profile.jpg"
   name             : "Chao Qiu"
   pronouns         : # example: "she/her"  
   bio              : "Computer Vsison"
@@ -360,3 +360,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+remote_theme: pages-themes/cayman@v0.2.0
